@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+.search{
+text-align: center;
+margin: 50px auto;
+}
+.input{
+  height: 37px;
+  /* border-radius: 5px; */
+}
+.navbar{
+  background-color: blue;
+ 
+  font-size: 1.2em;
+  
+  padding: 20px 0px;
+}
+.navbar-brand{
+  font-size: 1.5rem;
+}
+.navMenu{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+ display: flex;
+  justify-content:flex-end;
+  
+ 
+
+}
+.menuItem{
+margin-right: 20px;
+background-color: blue;
+
+}
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+.menuItem a{
+  color: white;
+
+  text-decoration:none;
+}
+
+.logo{
+  
+  float: left;
+  /* line-height: 3.5; */
+  padding-left: 20px;
+  color: white;
+}
+.homeDivs{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  
+}
+.beer{
+ height: 200px;
+display:grid;
+grid-template-columns: 1fr 2fr;
+border: 1px solid grey;
+padding: 15px;
+
+
+
+}
+
+.beer >img{
+ 
+
+}
